@@ -1,0 +1,15 @@
+.typing{
+font-family:'Pacifico', cursive;
+color:aqua;
+border-right:3px solid aqua;
+padding-right:5px;
+animation:blink 0.8s infinite;
+}
+
+@keyframes blink{
+
+0%{border-color:transparent}
+50%{border-color: aqua}
+100%{border-color:transparent}
+
+}

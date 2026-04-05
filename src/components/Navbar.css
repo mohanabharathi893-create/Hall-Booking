@@ -1,0 +1,78 @@
+.custom-navbar {
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(10px);
+  padding: 25px 0;
+  transition: 0.3s ease;
+  min-height: 50px !important;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Logo Image */
+.nav-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  margin-right: 10px;
+
+}
+
+
+/* REMOVE UNDERLINE */
+
+.custom-link{
+text-decoration:none !important;
+color:white !important;
+position:relative;
+}
+
+/* HOVER EFFECT (LINE ANIMATION ) */
+
+.custom-link::after{
+content:"";
+position:absolute;
+left:0;
+bottom:-5px;
+width:0%;
+height:2px;
+background:#ffcc70;
+transition:0.3s;
+}
+
+.custom-link:hover::after{
+width:100%;
+}
+
+/* NAVBAR BACKGROUND */
+
+.custom-navbar{
+background:rgba(0,0,0,0.7);
+backdrop-filter:blur(8px);
+}
+
+/* SIGNIN BUTTON */
+/* FORCE APPLY */
+
+.login-btn{
+background:#ffc107 !important;
+color:black !important;
+border:none;
+padding:8px 15px;
+border-radius:6px;
+}
+
+.logout-btn{
+background:#dc3545 !important;
+color:white !important;
+border:none;
+padding:8px 15px;
+border-radius:6px;
+}
+
+.login-btn:hover{
+background-color:skyblue !important;
+}
+
+.logout-btn:hover{
+background-color:#b02a37 !important;
+}
+

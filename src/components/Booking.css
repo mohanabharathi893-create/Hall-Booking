@@ -1,0 +1,270 @@
+/* Full Background */
+
+.booking-bg{
+min-height:150vh;
+display:flex;
+justify-content:center;
+align-items:center;
+
+
+background:
+linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+url("https://images.unsplash.com/photo-1511795409834-ef04bbd61622");
+
+
+background-size:cover;
+background-position:center;
+}
+
+
+/* Glass Booking Card */
+
+.booking-box{
+
+width:420px;
+padding:35px;
+
+background:rgba(255,255,255,0.15);
+
+backdrop-filter:blur(10px);
+
+border-radius:18px;
+
+border:1px solid rgba(255,255,255,0.3);
+
+box-shadow:0 10px 30px rgba(0,0,0,0.4);
+
+text-align:center;
+
+color:white;
+
+}
+
+
+/* Heading */
+
+.booking-box h2{
+
+margin-bottom:20px;
+
+font-size:28px;
+
+letter-spacing:1px;
+
+}
+
+
+/* Inputs */
+
+.booking-box input,
+.booking-box select,
+.booking-box textarea{
+
+width:100%;
+
+padding:12px;
+
+margin:8px 0;
+
+border:none;
+
+border-radius:8px;
+
+outline:none;
+
+font-size:14px;
+
+}
+
+
+/* Button */
+
+.booking-box button{
+
+width:100%;
+
+padding:12px;
+
+margin-top:10px;
+
+background:#ff5a5f;
+
+border:none;
+
+color:white;
+
+font-size:16px;
+
+border-radius:8px;
+
+cursor:pointer;
+
+transition:0.3s;
+
+}
+
+
+/* Hover */
+
+.booking-box button:hover{
+
+background:#e14b50;
+
+transform:scale(1.03);
+
+}
+
+
+/* Placeholder text */
+
+.booking-box input::placeholder,
+.booking-box textarea::placeholder{
+
+color:#555;
+
+}
+
+/* Full page background */
+
+.history-bg{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:flex-start;
+
+padding-top:120px;
+
+background:
+linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+url("src/assets/event-history.jpg");
+
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+}
+
+
+/* Glass table container */
+
+.history-box{
+
+width:95%;
+max-width:1100px;
+
+margin-bottom: 20%;
+
+background:rgba(255,255,255,0.15);
+
+backdrop-filter:blur(10px);
+
+padding:30px;
+
+border-radius:15px;
+
+box-shadow:0 10px 30px rgba(0,0,0,0.5);
+
+}
+
+
+/* Heading */
+
+.history-title{
+
+text-align:center;
+
+color:white;
+
+font-size:32px;
+
+margin-bottom:25px;
+
+letter-spacing:1px;
+
+}
+
+.typing{
+font-family:'Pacifico', cursive;
+color:aqua;
+border-right:3px solid aqua;
+padding-right:5px;
+animation:blink 0.8s infinite;
+}
+
+@keyframes blink{
+
+0%{border-color:transparent}
+50%{border-color:aqua}
+100%{border-color:transparent}
+
+}
+
+
+/* Table */
+
+.history-table{
+
+width:100%;
+
+background: rgba(0, 0, 0, 0.7);
+backdrop-filter: blur(10px);
+
+border-collapse:collapse;
+
+border-radius:10px;
+
+overflow:hidden;
+
+}
+
+.history-table tbody tr{
+    color:darkgray;
+}
+
+.history-table thead tr{
+    color:#ff5a5f;
+}
+
+
+
+
+
+
+/* Table cells */
+
+.history-table th,
+.history-table td{
+
+padding:12px;
+
+text-align:center;
+
+font-size:14px;
+
+}
+
+
+/* Row hover */
+
+.history-table tbody tr:hover{
+
+background:black;
+
+}
+
+.history-table thead tr:hover{
+  background:black;
+}
+
+
+
+/* No booking text */
+
+.no-booking{
+
+text-align:center;
+
+color:white;
+
+font-size:18px;
+
+}
